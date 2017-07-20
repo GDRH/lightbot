@@ -14,6 +14,6 @@ void loop() {
   else
     digitalWrite( OUTPUT_PIN, LOW );
 
-  Serial.println(sensorValue);
-  delay(1);        // delay in between reads for stability
+  Serial.println(sensorValue); // Print light value to serial
+  delay(200);        // delay in between reads for stability
 }
